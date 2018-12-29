@@ -91,6 +91,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/xiaomi/tulip/proprietary/lib/libhbtpjni.so:system/lib/libhbtpjni.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libminikin-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminikin-v27.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/libicuuc-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuc-v27.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/android.frameworks.sensorservice@1.0-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.sensorservice@1.0-v27.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib//modules/qca_cld3_wlan.ko.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
     vendor/xiaomi/tulip/proprietary/lib/libjni_blurbuster.so:system/lib/libjni_blurbuster.so \
     vendor/xiaomi/tulip/proprietary/lib/libjni_chromaflash.so:system/lib/libjni_chromaflash.so \
@@ -216,6 +220,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/lib64/libhbtpjni.so:system/lib64/libhbtpjni.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
     vendor/xiaomi/tulip/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
+    vendor/xiaomi/tulip/proprietary/vendor/lib64/android.frameworks.sensorservice@1.0-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.sensorservice@1.0-v27.so \
     vendor/xiaomi/tulip/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
     vendor/xiaomi/tulip/proprietary/lib64/libjni_chromaflash.so:system/lib64/libjni_chromaflash.so \
     vendor/xiaomi/tulip/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
